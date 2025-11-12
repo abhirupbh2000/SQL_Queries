@@ -1,1 +1,26 @@
-http://223.31.75.110:21000/ws_usp_get_inv_mst_det_details?fdate=2023-04-01&tdate=2023-04-01&br_code=002&trans=inv_mst
+Master:
+http://223.31.75.110:21000/ws_usp_master_details?from_dt=2007-04-01&to_dt=2007-04-01
+
+Item Master:
+http://223.31.75.110:21000/ws_usp_item_master_details?from_dt=2007-04-01&to_dt=2007-04-01 - ok
+
+Stock:
+http://223.31.75.110:21000/ws_usp_stock_details?from_dt=2023-04-01&to_dt=2023-04-01 
+
+Stock Mst:
+http://223.31.75.110:21000/ws_usp_stock_mst_details?from_dt=2021-08-14&to_dt=2021-08-14 
+
+Invoice:
+mst : http://223.31.75.110:21000/ws_usp_get_inv_mst_det_details?fdate=2023-04-01&tdate=2023-04-01&br_code=002&trans=inv_mst
+det : http://223.31.75.110:21000/ws_usp_get_inv_mst_det_details?fdate=2023-04-01&tdate=2023-04-01&br_code=002&trans=inv_det
+
+Inovice Return:
+mst : http://223.31.75.110:21000/ws_usp_get_crnt_mst_det_details?fdate=2023-04-01&tdate=2023-04-01&br_code=002&trans=crnt_mst
+det : http://223.31.75.110:21000/ws_usp_get_crnt_mst_det_details?fdate=2023-04-01&tdate=2023-04-01&br_code=002&trans=crnt_det
+
+Purchase:
+mst : http://223.31.75.110:21000/ws_usp_get_pur_mst_det_details?fdate=2023-04-01&tdate=2023-04-01&br_code=002&trans=pur_mst 
+det : http://223.31.75.110:21000/ws_usp_get_pur_mst_det_details?fdate=2023-04-01&tdate=2023-04-01&br_code=002&trans=pur_det
+
+Ledger:
+http://223.31.75.110:21000/ws_usp_ledger_details?from_dt=2023-04-01&to_dt=2023-04-01&br_code=002
